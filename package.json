@@ -4,16 +4,22 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "devstart":"nodemon ./bin/www"
+    "devstart": "nodemon ./bin/www"
   },
   "author": "CHER",
-  "keywords": ["node.js","ejs","express"],
+  "keywords": [
+    "node.js",
+    "ejs",
+    "express"
+  ],
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "http-errors": "^2.0.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.1"
   }
 }
